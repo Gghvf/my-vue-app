@@ -1,22 +1,21 @@
 {
   "name": "my-vue-app",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://Gghvf.github.io/my-vue-app",  
   "dependencies": {
-    "vue": "^3.5.24",
-    "vue-router": "^4.6.3"
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
-    "gh-pages": "^6.3.0",
-    "vite": "^7.2.2"
-  },
-  "homepage": "https://gghvf.github.io/my-vue-app/"
+    "@vitejs/plugin-vue": "^5.0.0",
+    "gh-pages": "^6.1.0",
+    "vite": "^5.0.0"
+  }
 }
